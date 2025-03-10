@@ -1,0 +1,7 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "build", //what is directory where javascipt is going to go,
+    "target": "ES6" //what is the javascript version that you want to complie to
+  }
+}
