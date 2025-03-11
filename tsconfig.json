@@ -3,7 +3,9 @@
   "compilerOptions": {
     "outDir": "build", //what is directory where javascipt is going to go,
     "target": "ES6", //what is the javascript version that you want to complie to
-    "lib": ["ES6", "DOM"] //where the codes are running
+    "lib": ["ES6", "DOM"], //where the codes are running
     //"ES6" includes the type definitions for ES6 features like Promise, Map, and Set, while "DOM" includes type definitions for browser APIs like document and HTMLElement.
+    "strict": true,
+    "allowJs": true
   }
 }
