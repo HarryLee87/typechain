@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
     "start": "node build/index.js"
   },
   "keywords": [],
@@ -11,6 +12,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
   }
 }
